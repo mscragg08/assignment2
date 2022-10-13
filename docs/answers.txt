@@ -1,0 +1,49 @@
+GitLab tutorial date: 10/13/2022
+GitHub Account date : 09/06/2022
+
+5.1.
+$ git push origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 452 bytes | 452.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/mscragg08/assignment2.git
+   f672491..cf14e13  master -> master
+
+5.2.
+There have been 9 total commits to the repository so far. There were initially 6 commits by Esteban and then 3 from myself after forking the repository. I used 'git shortlog'
+
+5.3.
+README.md was last modified "Thu Oct 13 10:32:13 2022 -0400". $ git log -1 --format="%ad" README.md
+
+5.4.
+Branches can be used to develop a new feature or they can be used to fix bugs in the existing code.
+
+5.5.
+'git log' shows the commit log for the repository. 
+'git status' shows changes to be commited if a user makes a commit.
+
+5.6.
+git log --follow Vehicle.h
+
+5.7.
+git log --grep=<file>
+
+5.8.
+Inheritance refers to an object's ability to inherit functions and member data from a parent object. Some object oriented languages have multiple inheritance (C++) and some only have single inheritance (Objective C), and some have a mix of both.
+Polymorphism relates to inheritance in that it deals with the parent-child relationship of objects. Polymorphism allows child objects to pick and choose which of its own functions it wants to run over its parent's functions. This allows a child to inherit the functions that don't need modification and use them, saving the programmer time.
+Encapsulation is the ability of an object to hide its member data through private interfaces using functions. In C++, a programmer can hide member data in a private scope and only allow access to the data through public member functions. This also makes object handling easier, as all the member functions that are required to make use of the member data are built into the object already.
+
+5.9.
+The main difference between the "Dictator and Lieutenants" and the "Integration Manager" workflows is in their conflict handling. The "Dictator and Lietenants" workflow merges changes in the Lietenants and the Dictator stages (and solves any arising conflicts). However, the "Integration Manager" workflow only solves conflicts in the Integration Manager stage.
+
+5.10.
+A centralized workflow will result in more conflicts for a team of 100 developers. They will constantly be pulling and pushing code while their coworkers are simulataneously doing the same thing - to the same repository. However, in the "Lieutenants and Dictator" workflow, developers push their code to the Lieutenant repository for conflict management, and then again to the Dictator repository. This allows the code to solve all conflicts before finally being pushed to the blessed repository.
+
+
+
+
+
